@@ -1,6 +1,8 @@
 # on ubuntu, if PIL not exist, run 'sudo pip install Pillow'
 import io
 import socket
+# use "eye of gnome" to display the picture send from PI
+# but will open lots of windows lol
 import struct
 from PIL import Image
 
@@ -28,6 +30,7 @@ try:
         image_stream.seek(0)
         image = Image.open(image_stream)
         print('Image is %dx%d' % image.size)
+        image.show(command='eog') # this code
         image.verify()
         print('Image is verified')
 finally:
