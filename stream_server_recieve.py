@@ -1,3 +1,4 @@
+# on ubuntu, if PIL not exist, run 'sudo pip install Pillow'
 import io
 import socket
 import struct
