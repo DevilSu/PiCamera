@@ -1,3 +1,4 @@
+# slove "NameError: name 'player' is not defined", run 'sudo apt-get install vlc'
 import socket
 import subprocess
 
