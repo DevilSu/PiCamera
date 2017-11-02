@@ -1,3 +1,0 @@
-git large file storage
-.gitignore
-git student developer pack
