@@ -1,8 +1,8 @@
 # on ubuntu, if PIL not exist, run 'sudo pip install Pillow'
-import io
-import socket
 # use "eye of gnome" to display the picture send from PI
 # but will open lots of windows lol
+import io
+import socket
 import struct
 from PIL import Image
 
