@@ -1,3 +1,4 @@
+# This works with ptrhon3.X
 import time
 import picamera
 import numpy as np
